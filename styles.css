@@ -6,16 +6,6 @@
     box-sizing: border-box;
     font-family: 'Playfair Display', serif;
 }
-body
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #0f0d30;
-    gap: 200px;
-}
-
 .header 
 {
 width: 100%;
@@ -61,7 +51,7 @@ font-size: 17px;
 }
 nav ul li a:hover 
 {
-color:#dcd400;
+color:#fff724;
 }
 .text-box {
     margin-top: 15%;
@@ -78,22 +68,16 @@ color:#dcd400;
     margin-top: 30px;
     display: inline-block;
     border-radius: 6px;
-    border: 2px solid #f1ea15;
+    border: 2px solid #fff724;
     color:#fff724;
     padding:10px 30px;
     text-decoration: none;
-    cursor: pointer;
-        transition-duration: 1.5s;
 }
 .text-box .btn{
     background: #fff724;
     color:#000;
     margin-left: 30px;
     font-weight: 600;
-    cursor: pointer;
-        transition-duration: 1.5s;
-        text-decoration-color: rgb(237, 13, 13);
-        text-decoration: none;
 }
 .user-img {
     width:480px;
